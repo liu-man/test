@@ -1,0 +1,712 @@
+html{
+    background:#fff;
+}
+
+.datails{
+    min-height: 285px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    border-top: 1px solid #e7e7e7;
+}
+
+.datails .top{
+    width:1080px;
+    height:459px;
+    margin-bottom:67px;
+}
+
+.datails .top .banner{
+    margin-right: 46px;
+    width: 465px;
+    height: 374px;
+    float: left;
+}
+
+
+.datails .top .banner .main{
+    width: 372px;
+    height: 372px;
+    background-color: #f4f4f4;
+    border: 1px solid #ececec;
+    position: relative;
+    float:left;
+}
+
+.datails .top .banner .main img{
+    width: 100%;
+    height: 100%;
+}
+
+.datails .top .banner .thu{
+    width: 85px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    float: right;
+   
+}
+
+.datails .top .banner .thu .thu-container{
+    position: absolute;
+    left: 0;
+}
+
+.datails .top .banner .thu .thu-pic{
+    width: 83px;
+    height: 83px;
+    margin-bottom: 11px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #f4f4f4;
+    border-color: rgb(132, 95, 63);
+}
+
+.datails .top .banner .thu .thu-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.datails .top .sku{
+    width: 561px;
+    height:459px;
+    float: left;
+    
+}
+
+.datails .top .sku .name{
+    width:561px;
+    height:26px;
+    margin-bottom: 4px;
+}
+
+.datails .top .sku .goods-name{
+    vertical-align: middle;
+    line-height: 26px;
+    font-size: 20px;
+    color: #333;
+    float: left;    
+}
+
+.datails .top .sku .summary{
+    width: 84%;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999;
+}
+
+.datails .top .sku .promotion-box{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 2px;
+}
+
+.datails .top .sku .promotion-box .tit{
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 4px;
+}
+
+.datails .top .sku .promotion-box .gift{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid #c00002;
+    color: #c00000;
+    margin-right: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    margin:0 6px;
+}
+
+.datails .top .sku .promotion-box .text{
+    color: #333;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.datails .top .sku .car{
+    margin-bottom: 26px;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.datails .top .sku .car .price{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 37px;
+    overflow: hidden;
+    vertical-align: bottom;
+    line-height: 37px;
+    font-size: 30px;
+}
+
+.datails .top .sku .car .price .pri-title{
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    vertical-align: bottom;
+    margin-right: 10px;
+    width: 48px;
+}
+
+.datails .top .sku .car .price .Price details{
+    color: #c00000;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.datails .top .sku .car .price .pri-details span.money{
+    margin-right: 3px;
+    font-size: 14px;
+    vertical-align: 0;
+    color: #c00000;
+    line-height: 30px;
+}
+
+.datails .top .sku .car .price .pri-details span.value{
+    font-size: 30px;
+    vertical-align: 0;
+    color: #c00000;
+}
+
+.datails .top .sku .car .price .pri-details .market-price{
+    margin-left: 14px;
+    font-size: 12px;
+    vertical-align: 0;
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.datails .top .sku .car .price .pri-details .sale{
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    margin-left: 8px;
+    background-color: #c00000;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 2px;
+    border-radius: 2px;
+}
+
+
+.datails .top .sku .car .serve{
+    margin-bottom: 12px;
+    vertical-align: bottom;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+
+.datails .top .sku .car .serve .ser{
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    vertical-align: bottom;
+    margin-right: 10px;
+    width: 48px;
+}
+
+
+.datails .top .sku .car .serve .t-icons{
+    float: left;
+    box-sizing: border-box;
+    margin-top: 9px;
+    border: 1px solid #c00000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-size: 10px;
+    color: #c00000;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.datails .top .sku .car .serve .ser-box{
+    overflow: hidden;
+}
+
+.datails .top .sku .car .serve .ser-box .server-items{
+    float: left;
+    overflow: hidden;
+    min-height: 24px;
+    margin-right: 13px;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.datails .top .sku .car .serve .ser-box .server-items .ser-icon{
+    width: 16px;
+    height: 16px;
+    background-position: 0 -215px;
+}
+
+.datails .top .sku .car .serve .ser-box .server-items .server-items-text{
+    margin-left: 8px;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.datails .top .sku .address-line{
+    overflow: hidden;
+    padding: 0 10px 26px;
+}
+
+.datails .top .sku .address-line h5.distribution{
+    line-height: 14px;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 10px;
+    width: 48px;
+}
+
+.datails .top .sku .address-line .address{
+    font-size: 14px;
+    float: left;
+    line-height: 14px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.datails .top .sku .address-line .address span{
+    font-size: 14px;
+    float: left;
+    line-height: 14px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.datails .top .sku .address-line .address span a{
+    margin-left: 10px;
+    color: #666;
+}
+
+.datails .top .sku .size-line{
+    overflow: hidden;
+    padding: 0px 0px 12px;
+    margin-bottom: 14px;
+    padding: 0 10px;
+}
+
+.datails .top .sku .size-line h5.sku-title{
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 10px;
+    width: 48px;
+}
+
+.datails .top .sku .size-line .size-container{
+    margin-bottom: -14px;
+    float: left;
+    width: 473px;
+    overflow: hidden;
+}
+
+.datails .top .sku .size-line .size-container .tag-item-onSaled{
+    border: 1px solid #d6d6d6;
+    float: left;
+    margin-right: 14px;
+    padding: 4px 20px;
+    color: #333;
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.datails .top .sku .count-line{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.datails .top .sku .count-line .box{
+    overflow: hidden;
+    margin-left:68px;
+}
+
+.datails .top .sku .count-line h5.count-title{
+    display: inline-block;
+    float: left;
+    line-height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 48px
+}
+
+
+.datails .top .sku .count-line .box .minus-btn{
+    float: left;
+    width: 34px;
+    height: 30px;
+    border: 1px solid #d6d6d6;
+    line-height: 28px;
+    text-align: center;
+    color: #d6d6d6;
+}
+
+.datails .top .sku .count-line .box .minus-btn .icons-reduce{
+    width: 30px;
+    height: 30px;
+    background-position: 0 -1390px;
+}
+
+.datails .top .sku .count-line .box .count-input{
+    float: left;
+    width: 60px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #d6d6d6;
+    border-left-width: 0;
+    border-right-width: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+.datails .top .sku .count-line .box .minus-btn-active{
+    float: left;
+    width: 34px;
+    height: 30px;
+    border: 1px solid #d6d6d6;
+    line-height: 28px;
+    text-align: center;
+    color: #d6d6d6;
+    font-size: 14px;
+}
+
+.datails .top .sku .count-line .box .minus-btn-active .icons-add{
+    width: 30px;
+    height: 30px;
+    background-position: 0 -1050px;
+}
+
+.datails .top .sku .btn-line{
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.datails .top .sku .btn-line .buy-btn-container{
+    float: left;
+    margin-right: 15px;
+    min-width: 167px;
+    height: 52px;
+    line-height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid #666;
+    padding: 0 6px;
+    background-color: #845f3f;
+    border-color: #845f3f;
+}
+
+.datails .top .sku .btn-line .buy-btn-container .m-btns{
+    margin-right: 15px;
+    color: #fff;
+    background-color: #845f3f;
+    border-color: #845f3f;
+    min-width: 167px;
+    height: 52px;
+    line-height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0 6px;
+}
+
+.datails .top .sku .btn-line .favor-btn{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #999;
+    line-height: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.datails .top .sku .btn-line .favor-btn:hover{
+    background-color: #845f3f;
+}
+
+.datails .top .sku .btn-line .favor-btn .btn-icons{
+    line-height: 12px;
+    width: 30px;
+    height: 30px;
+    background-position: 0 -880px;
+}
+
+.datails .top .sku .btn-line .favor-btn p{
+    color: #999;
+    line-height: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.datails .top .sku .btn-line .faver-service-btn{
+    margin-left: 15px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #999;
+    line-height: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.datails .top .sku .btn-line .faver-service-btn .btn-icons{
+    line-height: 12px;
+    width: 30px;
+    height: 30px;
+    background-position: 0 -1560px;
+}
+
+.datails .top .sku .btn-line .faver-service-btn:hover{
+    background-color: #845f3f;
+    cursor: pointer;
+}
+
+
+.content{
+    overflow: hidden; 
+}
+
+.content .info-l{
+    width: 774px;
+    float: left;
+}
+
+
+.content .info-l .nav-title{
+    width: 774px;
+    background-color: #e7e7e7;
+    z-index: 5;
+}
+
+
+.content .info-l .nav-title .info-nav{
+ 
+    height: 13px;
+    padding: 16px 0 13px;
+}
+
+
+.content .info-l .nav-title .info-nav .info-nav-item{
+    border-right-color: rgb(204, 204, 204);
+    width: 128px;
+    float: left;
+    height: 13px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    line-height: 13px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.content .info-l .nav-title .nav-arr-container{
+    height: 2px;
+    position: relative;
+}
+
+.content .info-l .nav-title .nav-arr-container .nav-arr{
+    left: 0px;
+    width: 128px;
+    position: absolute;
+    height: 2px;
+    background-color: #845f3f;
+}
+
+.content .info-l .main-body{
+    min-height: 900px;
+}
+
+
+.content .info-l .main-body img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: none;
+}
+
+
+.content .info-r{
+    float: right;
+    width: 262px;
+}
+
+.content .info-r .flagship{
+    padding-bottom: 13px;
+    margin-bottom: 17px;
+    border-bottom: 1px solid #e7e7e7
+}
+
+.content .info-r .flagship .icon-info{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.content .info-r .flagship .icon-info img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.content .info-r .flagship .icon-info .title-container{
+    float: left;
+    width: 156px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.content .info-r .flagship .icon-info .title-container h6{
+    overflow: hidden;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .info-r .flagship .icon-info .title-container p{
+    margin-top: 4px;
+    overflow: hidden;
+    line-height: 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .info-r .recommend-title{
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 17px;
+}
+
+.content .info-r .recommend-title .special-line{
+    margin: 0 12px;
+    display: inline-block;
+    width: 16px;
+    border-top: 1px solid #333;
+    height: 21px;
+    vertical-align: bottom;
+}
+
+.content .info-r .best-product{
+    border: 1px solid #f4f4f4;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width:260px;
+    height:301px;
+}
+
+.content .info-r .best-product .image-container{
+    width: 260px;
+    height: 197px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content .info-r .best-product .image-container .img-container{
+    padding: 22px 53px;
+    width: 154px;
+    height: 153px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.content .info-r .best-product .image-container .img-container img{
+    height: 154px;
+    width: 154px;
+    margin-top: -0.5px;
+}
+
+.content .info-r .best-product .image-container p{
+    padding: 0 15px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: #845f3f;
+}
+
+.content .info-r .best-product .image-container h5{
+    font-weight: 400;
+    background-color: #f4f4f4;
+    height: 30px;
+    line-height: 34px;
+    color: #333;
+    padding: 0 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content .info-r .best-product .image-container h4{
+    height: 24px;
+    line-height: 20px;
+    color: #c33300;
+    text-align: center;
+    font-weight: 400;
+    background-color: #f4f4f4;
+}
+
+
+.content .info-r .best-product .image-container h4 .price{
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

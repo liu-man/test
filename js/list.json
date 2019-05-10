@@ -1,0 +1,54 @@
+[
+    {
+    "goodsId":1,
+    "url":"https://shop.io.mi-img.com/app/shop/img?id=shop_423b243c8a97c6ee8939855b712fb4a8.jpeg&t=webp",
+    "name":"米家智能家庭家居温控套装",
+    "price":"￥299"
+    },
+    {
+    "goodsId":2,
+    "url":"https://img.youpin.mi-img.com/800_pic/5683d4f0b1c5fa929b625fa157c04b66.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"九旬工具箱",
+    "price":"￥99"
+    },
+    {
+    "goodsId":3,    
+    "url":"https://img.youpin.mi-img.com/800_pic/2d2d01fb37996a057ca9a20bb0b12829.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"One cloud简约皮质家居拖鞋",
+    "price":"￥158"
+    },
+    {
+    "goodsId":4,
+    "url":"http://img.youpin.mi-img.com/800_pic/101640_6f0cab196204a9d4d553fe3c8bc4e15e.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"One cloud绅士格纹家居拖鞋",
+    "price":"￥49"
+    },
+    {
+    "goodsId":5,
+    "url":"https://img.youpin.mi-img.com/800_pic/b97016372846cd757e26adee266f0864.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"instant me 100%真丝家居男女款...",
+    "price":"￥799"
+    },
+    {
+    "goodsId":6,
+    "url":"https://img.youpin.mi-img.com/800_pic/f4dc300feb9639b49b6e59cc8765a60b.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"打底家居T恤2件装 棉花史密斯",
+    "price":"￥89"
+    },
+    {
+     "goodsId":7,
+    "url":"https://img.youpin.mi-img.com/800_pic/cf51ae6eae6af4698193ed1ed4b1028f.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"家居套装男款 棉花史密斯",
+    "price":"￥99"
+    },{
+    "goodsId":8,
+    "url":"https://img.youpin.mi-img.com/800_pic/b98d7ff2f562d392440a9479540f7b7e.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"寓义家居 吉时系列挂钟",
+    "price":"￥99"
+    },{
+    "goodsId":9,
+    "url":"https://img.youpin.mi-img.com/800_pic/5d0e7f10bcb2e7f0ac225eeec352c04a.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF?t=webp",
+    "name":"简音时刻原木家居蓝牙音响",
+    "price":"￥499"
+    }
+]

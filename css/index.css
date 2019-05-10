@@ -1,0 +1,733 @@
+
+#banner {
+    width: 1080px;
+    height: 358px;
+    background: #e7e7e7;
+    position: relative;
+    
+}
+
+#banner .banner-nav {
+    width: 221px;
+    height: 338px;
+    background: #845f3f;
+    float: left;
+    padding: 10px 0;
+    float: left;
+}
+
+#banner .banner-nav .first{
+    width: 165px;
+    padding: 0 30px;
+}
+
+#banner .banner-nav .first a {
+    height: 37px;
+    line-height: 37px;
+    color: #fff;
+    width: 165px;
+    height: 37px;
+}
+
+#banner .banner-nav ul span {
+    color: #fff;
+}
+
+#banner .banner-nav .nav-list{
+    background:#fff;
+    width: 859px;
+    height:358px;
+    display:none;
+    position: absolute;
+    position: absolute;
+    left: 221px;
+    top: 0px;
+    z-index: 10;
+    width: 797px;
+    height: 316px;
+    border: 1px solid #eee;
+    padding: 20px 30px;
+    overflow-y: auto;
+}
+
+#banner .banner-nav .nav-list .classify{
+
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#banner .banner-nav .nav-list .classify p{
+    color: #333;
+    font-size: 14px;
+    margin:8px;
+}
+
+#banner .banner-nav .nav-list .classify .main{
+    overflow: hidden;
+}
+
+#banner .banner-nav .nav-list .classify ul li{
+    float: left;
+    margin-bottom: 30px;
+    width: 184px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#banner .banner-nav .nav-list .classify ul li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#banner .banner-nav .nav-list .classify ul li span{
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+#banner .box{
+    width: 859px;
+    height:358px;
+    position: relative;
+    overflow: hidden;
+}
+
+#banner .box .imgbox img{
+    width: 859px;
+    height:358px;
+}
+
+#banner .box .imgbox a{
+    position: absolute;
+    left:859px;
+    top:0;
+}
+
+#banner .box .imgbox a:nth-child(1){
+    left:0px;
+}
+
+#banner .box .btn *{
+    border: none;
+    background: rgba(255,255,255,0.6);
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:125px;
+    outline: none;
+    cursor: pointer
+}
+
+#banner .box .btn #left{
+    left:0;
+}
+
+#banner .box .btn #right{
+    right:0;
+}
+#banner .list li{
+    background:#fff;
+    margin:3px;
+}
+
+#container {
+    
+    width: 1080px;
+    height: 189px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 30px;
+}
+
+#container ul {
+    cursor: pointer;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+#container ul li {
+    float: left;
+    margin-right: 46px;
+    cursor: pointer;
+}
+
+#container ul li img {
+    width: 130px;
+    height: 120px;
+    padding: 20px;
+}
+
+#container ul li p {
+    width: 130px;
+    height: 19px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#recommend {
+    cursor: pointer;
+    width: 1080px;
+    height: 287px;
+    margin-top: 35px;
+}
+
+#recommend .main-t {
+    margin-bottom: 20px;
+}
+
+#recommend .main-t h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333
+}
+
+#recommend .main-t h2 span {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+#recommend .main-bottom {
+
+    overflow: hidden;
+}
+
+
+
+#recommend .main-bottom ul li {
+    float: left;
+    width: 266px;
+    margin-left: 5px;
+    position: relative;
+    height: 230px;
+    background: #f3f0e9;
+}
+
+#recommend .main-bottom ul li.no-ml {
+    margin-left: 0;
+}
+
+#recommend .main-bottom ul li .img {
+    position: absolute;
+    right: 45px;
+    bottom: 10px;
+    width: 175px;
+    height: 117px;
+    z-index: 4;
+}
+
+#recommend .main-bottom ul li .txt {
+    padding-top: 23px;
+    padding-left: 15px;
+    position: relative;
+}
+
+#recommend .main-bottom ul li .txt .info {
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+}
+
+#recommend .main-bottom ul li .txt .desc {
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+#recommend .main-bottom ul li .txt {
+    width: 266px;
+    height: 75px;
+}
+
+#section {
+    margin-top: 35px;
+    height:302px;
+}
+#section .fl {float: left;}
+#section .fr {float: right;}
+
+#section .sec-top {
+    margin-bottom: 20px;
+}
+
+
+
+#section .sec-top h2 {
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#section .sec-top span {
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+#section .main-bottom {
+    cursor: pointer;
+    height: 245px;
+}
+
+#section .main-bottom ul {
+    overflow: hidden;
+}
+
+#section .main-bottom ul li {
+    float: left;
+}
+#section .main-bottom ul li .good-items {
+    height: 210px;
+    background: #f3f0e9;
+    width: 266px;
+    margin-left: 5px;
+    position: relative;
+}
+#section .main-bottom ul li .good-items .img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 130px;
+    height: 130px;
+    margin-top: 0px;
+}
+#section .main-bottom ul li .good-items .txt{
+    position: relative;
+    z-index: 6;
+    padding-top: 25px;
+    padding-left: 23px;
+}
+#section .main-bottom ul li .good-items .txt .info{
+    color: #333;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+}
+#section .main-bottom ul li .good-items .txt .desc{
+    color: #999;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+#section .main-bottom ul li .good-items .txt .price{
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+    color: #a92112;
+    margin-top: 11px;
+}
+
+
+#section .main-bottom ul li .progress .suppory{
+    color: #999;
+    font-size: 15px;
+    margin-left: 20px;
+}
+#section .main-bottom ul li .progress .progress-tag-con{
+    text-align: center;
+    height: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
+    display: inline-block;
+}
+#section .main-bottom ul li .progress .persent{
+    margin-right: 15px;
+    color: #a92112;
+    font-size: 18px;
+}
+
+#section .main-bottom ul li.section-items-big .good-items {
+    margin-left: 0;
+    position: relative;
+    width: 537px;
+    height: 210px;
+    background: #f3f0e9;
+}
+#section .main-bottom ul li.section-items-big .good-items .txt .info{
+    color: #333;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+}
+#section .main-bottom ul li.section-items-big .good-items .txt .desc{
+    color: #999;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+#section .main-bottom .section-items-big .good-items .img {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 215px;
+    height: 215px;
+}
+/* 公共属性，下面有调用 */
+.new{
+    width:1080px;
+    overflow: hidden;
+}
+
+.new .pro{
+    position: relative;
+    width: 100%;
+    height: 375px;
+}
+
+.new-top{
+    position: relative;
+    height:37px;
+    margin-bottom: 20px;
+    margin-top:60px;
+}
+
+ .new-top h2{
+    cursor: pointer;
+    color: #333;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.new-top h2 span{
+    height: 30px;
+    color: #999;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left:5px;
+}
+
+.new-top .more{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    height: 30px;
+    color: #999;
+    cursor: pointer;
+}
+
+
+
+.pro  .goods{
+    margin-left: 5px;
+    float: left;
+    width: 266px;
+    text-align: center;
+    cursor: pointer;
+    height:375px;
+    
+}
+.shadow:hover{
+    box-shadow: 0px 0px 20px 0px gray
+}
+
+.pro .first{
+    margin-left:0px;
+    float: left;
+    width: 266px;
+    text-align: center;
+    cursor: pointer;
+    height:375px;
+}
+
+.pro  .goods .small-img{
+    float: left;
+    width: 266px;
+    text-align: center;
+    cursor: pointer;
+}
+.pro  .goods .small-img img{
+    display: block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+
+.pro  .goods .subTit{
+    width:266px;
+    height:109px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.pro  .goods .color{
+    background:#faf6ef;
+}
+
+.pro  .goods .subTit .sub-info{
+    color: #333;
+    font-size: 19px;
+    line-height: 23px;
+    height: 23px;
+}
+
+.pro  .goods .subTit .sub-desc{
+    color: #666;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    margin-top: 8px;
+}
+
+.pro  .goods .subTit .sub-price{
+    margin-top: 11px;
+    margin-bottom: 0;
+    height: 26px;
+    line-height: 26px;
+    color: #a92112
+}
+
+.pro  .goods .subTit .sub-price .sub-unit{
+    font-size: 15px;
+}
+
+.pro  .goods .subTit .sub-price .sub-num{
+    font-size: 22px;
+}
+
+.pro .button-r{
+    margin-top: -55px;
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.pro .button-r-hover{
+    width: 38px;
+    height: 38px;
+    background-position: 0 -1840px;
+}
+
+.pro .button-l{
+    margin-top: -55px;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    background-position: 0 -1924px;
+} 
+
+
+.button-l:hover{
+    opacity: .35;
+    cursor: auto;
+    color:rgba(122, 57, 3, 0.473);
+}
+
+.button-r:hover{
+    opacity: .35;
+    cursor: auto;
+    color:rgba(122, 57, 3, 0.473);
+}
+   
+.product-list{
+    width:1080px;
+    height:100%;
+    overflow: hidden;
+}
+
+
+.product-list .pro-category{
+    margin-left:5px;
+    width: 260px;
+    height:350px;
+    padding-bottom: 0;
+    margin-bottom:5px;
+    border:1px solid #e7e7e7;
+    background: none;
+    float:left;
+
+}
+
+
+.product-list .first{
+    width: 260px;
+    height:350px;
+    padding-bottom: 0;
+    margin-bottom:5px;
+    border:1px solid #e7e7e7;
+    background: none;
+    float:left;
+
+}
+
+.product-list .pro-category .category-img .pro-tag{
+    position: absolute;
+    padding: 3px;
+    left: 8px;
+    top: 8px;
+    width: 16px;
+    line-height: 18px;
+    font-size: 15px;
+    text-align: center;
+    word-wrap: break-word;
+    border-radius: 4px;
+    border: 1px solid #9f8052;
+    background-color: transparent;
+    color: #9f8052;
+    
+}
+
+.product-list .pro-category .category-img{
+    position: relative;
+    
+}
+
+.product-list .pro-category .category-img img{
+    padding: 45px 70px 28px;
+    width: 124px;
+    height: 125px;
+    
+}
+
+.product-list .pro-category .category-img .pro-desc{
+    color: #845f3f;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.product-list .pro-category .category-box .pro-text{
+    text-align: center;
+    height: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.product-list .pro-category .category-box{
+    width:260px;
+    height:91px;
+    margin-top: 18px;
+    padding: 13px 0 10px;
+    background: #f8f8f8;
+    
+}
+
+
+.pro-text-tag{
+    background-color: rgb(217, 107, 108);
+    padding: 0 6px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 20px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+
+.pro-info{
+    color: #333;
+    margin-top:20px;
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+    text-align: center;
+}
+
+.product-list .pro-category .category-box .pro-price{
+    margin-top:11px;
+    text-align: center;
+}
+
+.product-list .pro-category .category-box .pro-price .unit{
+    margin-top: 11px;
+    margin-bottom: 0;
+    height: 22px;
+    line-height: 22px;
+    color: #a92112;
+    text-align: center;
+}
+
+.product-list .pro-category .category-box .pro-price .num{
+    font-size: 20px;
+    line-height: 22px;
+    color: #a92112;
+}
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

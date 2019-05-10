@@ -1,0 +1,350 @@
+.margin{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.ico{
+    background:url(../images/ico.png);
+}
+
+
+.append .m-secondary-navigator{
+    padding: 30px 0;
+    width: 100%;
+    display: block;
+    float: none;
+    background: transparent repeat 0 0 none;
+    font-size: 13px;
+}
+
+.append .m-secondary-navigator span{
+    font-size: 13px;
+    color: #333;
+}
+
+.append .title{
+    height: 42px;
+    line-height: 40px;
+    background-color: #fafafa;
+    color: #999;
+    margin-bottom: 3px;
+}
+
+.append .title span{
+    display:inline-block;
+}
+
+.append .title .all-txt{
+    width: 130px;
+    margin-left:20px;
+}
+
+.append .title .product{
+    width: 325px;
+}
+
+.append .title .price{
+    width: 205px;
+}
+
+.append .title .num{
+    width: 208px;
+}
+
+.append .title .total{
+    width: 129px;
+}
+
+
+
+.append .content .merchant .info{
+    padding-top: 47px;
+    padding-bottom: 17px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.append .content .merchant .span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.append .content .merchant .postmarginright{
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.append .content .merchant .info .post{
+    float:right;
+}
+
+
+.append .content .merchant .box{
+   padding-bottom:100px;
+}
+.append .content .merchant .summarize{
+   border-bottom:1px solid #e7e7e7;
+}
+
+.append .content .merchant .container{
+    border-bottom:1px dashed #e7e7e7;
+}
+
+.append .content .merchant .container .cart-good-items{
+   overflow: hidden;
+}
+
+
+
+.append .content .merchant .container .list .select{
+    padding: 35px 0;
+    height: 72px;
+    line-height: 72px;
+    width: 45px;
+    float: left;
+}
+
+.append .content .merchant .container .list .select .icons{
+    box-sizing: content-box;
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-top: -5px;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -490px;
+}
+
+
+.append .merchant .box .summarize .container #tupian{
+    float: left;
+    height: 142px;
+    position: relative;
+    width: 120px;
+    cursor: pointer;
+}
+
+.append  .merchant .box .summarize .container #tupian img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+
+}
+
+.append  .merchant .box .summarize .container .name{
+    width:200px;
+    padding: 27px 0px 27px 0px;
+    height:88px;
+    line-height: 88px;
+    cursor: pointer;
+    float:left;
+}
+
+.append .merchant .box .summarize .container .name .name1{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.append .merchant .box .summarize .container .price{
+    width: 245px;
+    padding: 35px 0;
+    height: 72px;
+    line-height: 72px;
+    float:left;
+    text-align: center;
+}
+
+.append .merchant .box .summarize .container .num1{
+    width: 205px;
+    height: 31px;
+    float:left;
+    margin-top:31px;
+}
+
+.append .merchant .box .summarize .container .num .active{
+    padding: 35px 0;
+    height: 72px;
+    line-height: 72px;
+    margin-left:33px;
+}
+
+.append .merchant .box .summarize .container .add{
+    width: 134px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 32px;
+    border: 1px solid #b3b3b3;
+    overflow: hidden;
+    margin-top:53px;
+}
+
+.append .merchant .box .summarize .container .num .active .add .reduce{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-position: 0 -1356px;
+}
+
+.append .merchant .box .summarize .container .num .active .add .txt{
+    width: 70px;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #b3b3b3;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.append .merchant .box .summarize .container .num .active .add .add1{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-position: 0 -1050px;
+}
+
+.append .merchant .box .summarize .container .subtotal{
+    width: 130px;
+    text-align: left;
+    color: #c00000;
+    padding: 35px 0;
+    height: 72px;
+    line-height: 72px;
+    float:left;
+    text-align: center;
+    margin-left: 42px;
+}
+
+.append .merchant .box .summarize .container .subtotal .span{
+    
+    color: #c00000;
+    line-height: 72px;
+   
+}
+
+.append .merchant .box .summarize .container .del{
+    padding: 35px 0;
+    height: 72px;
+    line-height: 72px;
+    float:left;
+    margin-left:59px;
+}
+
+.append .merchant .box .summarize .container .del .dele{
+    display: inline-block;
+    width: 29px;
+    height: 13px;
+    background-position: 0 -119px;
+}
+
+.append .bottom{
+    position: relative;
+    margin-bottom: 160px;
+    background-color: #fafafa;
+    font-size: 18px;
+    width: 1080px;
+    height: 80px;
+    z-index: 0;
+}
+
+.append .bottom .fl{
+    padding: 25px 0;
+    height: 30px;
+    line-height: 30px; 
+    float: left;
+}
+
+.append .bottom .fl .check{
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-top: -5px;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -490px;
+}
+
+.append .bottom .fl .text{
+    width: 75px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.append .bottom .fl .already-select{
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.append .bottom .to-price{
+    height: 55px;
+    padding-top: 62px;
+    position: absolute;
+    right: 230px;
+    bottom: 0;
+    font-size: 12px;
+    color: #999;
+}
+.append .bottom .checkout{
+    margin-top: -.5px;
+    float: right;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #a9010d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
