@@ -35,7 +35,7 @@ Car.prototype.display = function(){
             //如果购物车里的商品ID = 外面商品的ID
             if(this.res[i].goodsId == this.goods[j].id){
                 // console.log(this.res[i],this.goods[j].num)
-                str += `<div class = "container  index = "${this.goods[j].id}">
+                str += `<div class = "container"  index = "${this.goods[j].id}">
                             <div class = " list clear clearfix">
                                 <div class = "select">
                                     <a href="#" class = "ico icons"></a>
@@ -88,22 +88,24 @@ Car.prototype.addEvent = function(){
         var e = eve || window.event;
         var target = e.target || e.srcElement;
         if(target.className == "dele"){
-            
+            console.log(target.parentNode.parentNode.parentNode)
             //R2存储要删除商品的货号，同时删除dom元素
             that.id = 
             target.parentNode.parentNode.parentNode.getAttribute("index");
             target.parentNode.parentNode.parentNode.remove();
+            
+            that.removeCookie();
             // R3执行修改cookie实现删除操作
-            that.changeCookie(function(i){
-                that.goods.splice(0,1)
-            })
+            // that.changeCookie(function(i){
+            //     that.goods.splice(0,1)
+            // })
         }
     })
 }
  
 Car.prototype.changeCookie = function(callback){
     
-    for(var i =0;i<goods.length;i++){
+    for(var i =0;i<this.goods.length;i++){
         if(this.goods[i].id == this.id){
             callback(i)
         }
@@ -113,11 +115,14 @@ Car.prototype.changeCookie = function(callback){
 
 Car.prototype.removeCookie = function(){
     for(var i=0;i<this.goods.length;i++){
+        console.log(this.id)
         if(this.goods[i].id == this.id){
-            this.goods.splice(0,1);
+              this.goods.splice(i,1);
+              console.log(this.goods)
+              setCookie("goods",JSON.stringify(this.goods))
         }
     }
-    setCookie("goods",JSON.stringify(this.goods))
+    
 }
     
 new Car();
